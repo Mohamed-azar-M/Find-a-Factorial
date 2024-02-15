@@ -1,0 +1,94 @@
+body{
+        background: url(calc3.jpg) no-repeat center center fixed;
+        background-size: cover;
+        text-align: center;
+        
+        align-items: center;
+        justify-content: center;
+       }
+
+       figcaption{
+        display: flex;
+            text-align: center;
+            justify-content: center;
+            border: 2rem;
+            letter-spacing: 2px;
+            grid-gap: 2rem;
+            transition: transform .4s;
+            border-radius: 10px;
+            position: relative;
+            left: auto;
+            border-bottom: 70%;
+       }
+   
+     h1{
+            font-size: 80px;
+             text-align: center;
+            justify-content: center;
+            font-weight: 400;
+            margin-top: 0%;
+            top: 30%;
+            margin-bottom: 2rem;
+
+        }
+      
+        label{
+            display: flex;
+            font-size: x-large;
+            font-family: inherit;
+            font-weight: 1000;
+
+        }
+        details{
+            cursor: pointer;
+            font-weight: bold;
+        }
+       
+        figcaption{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            border: 2rem;
+            letter-spacing: 2px;
+            grid-gap: 2rem;
+            transition: transform .4s;
+            border-radius: 10px;
+            position: relative;
+            left: auto;
+            border-bottom: 70%;
+            
+           
+        }
+       button {
+        display: flex;
+        text-align: center;
+        background-color: #12f7ff;
+        cursor: pointer;
+   
+    font-weight: 600;
+    letter-spacing: .4px;
+    margin-left: 1.3rem;
+    
+
+        
+       }
+       fieldset{
+        font-size: x-large;
+       }
+      
+       
+        #result {
+            text-align: center;
+            justify-content: center;
+            font-weight: bolder;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        p{
+            font-size: large;
+           color: rgb(209, 40, 68);
+           font-weight:bold;
+           font-style: oblique;
+           font-stretch: wider;
+           opacity: 3;
+        }

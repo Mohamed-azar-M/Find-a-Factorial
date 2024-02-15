@@ -1,0 +1,23 @@
+function calculateFactorial() {
+            var numberInput = document.getElementById('number');
+            var resultDiv = document.getElementById('result');
+            
+            var num = parseInt(numberInput.value);
+
+            if (isNaN(num)) {
+                resultDiv.innerHTML = 'Please enter a valid number.';
+                return;
+            }
+
+            if (num < 0) {
+                resultDiv.innerHTML = 'Factorial is not defined for negative numbers.';
+                return;
+            }
+
+            var factorial = 1;
+            for (var i = 2; i <= num; i++) {
+                factorial *= i;
+            }
+
+            resultDiv.innerHTML = 'Factorial of ' + num + ' is: ' + factorial;
+        }
